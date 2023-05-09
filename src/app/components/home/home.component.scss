@@ -1,0 +1,22 @@
+mat-card {
+    margin: 10px;
+    border-radius: 5px;
+
+    img {
+        border-radius: 5px;
+        height: 200px;
+        width: 200px;
+    }
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.product-info {
+    inline-size: 100px; 
+    margin: 5px;
+}

@@ -1,0 +1,10 @@
+<div class="main-container">
+    <mat-card *ngFor="let product of $products | async">
+        <img src={{product.image_link}}>
+        <div class="product-info">
+            <p>{{product.name}}</p>
+            <a href={{product.product_link}} target="_blank">Buy</a>
+            <p>{{product.product_link}}</p>
+        </div>
+    </mat-card>
+</div>
